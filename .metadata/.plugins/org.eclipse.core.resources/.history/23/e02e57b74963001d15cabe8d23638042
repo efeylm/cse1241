@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+	int baseNumber=2;
+	String number= "10101";
+	int calculation= (int) ((number.charAt(0))*Math.pow(baseNumber, 0));
+	
+	
+		}
+	}
+
+}

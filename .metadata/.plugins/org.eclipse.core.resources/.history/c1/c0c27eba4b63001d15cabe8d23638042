@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		 System.out.print("Bir sayı giriniz : ");  	        // Konsoldan sayı istenir  
+	  
+	        Scanner scn = new Scanner(System.in);  
+	        // scn isimli Scanner sınıfı oluşturuyoruz. Bu Konsoldan giriş almamızı sağlar.  
+	  
+	        int sayi = scn.nextInt();  
+	        // Tamsayı tipinde(int) sayi değişkenini oluşturup bu değişkene konsoldan alınan değeri atıyoruz.  
+	  
+	        while (sayi > 0){  
+	            // Sayı sıfırdan büyük olduğu sürece tekrarlanacak :  
+	  
+	            System.out.println(sayi % 10);  
+	            // Sayıyının 10 ile modu alınır (yani sayıyı 10'a böldüğümüzde kalan sayı döner) ve ekrana yazdırılır.  
+	  
+	            sayi = sayi/10;  
+	
+	
+		}
+	}
+
+}

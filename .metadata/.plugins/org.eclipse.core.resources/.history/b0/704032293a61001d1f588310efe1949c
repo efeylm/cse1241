@@ -1,0 +1,9 @@
+
+public class FacePrinter {
+
+	public static void main(String[] args) {
+		GFG obj = new GFG();
+		GFG.sumBaseB(1010, 10101, 2);
+	}
+
+}
